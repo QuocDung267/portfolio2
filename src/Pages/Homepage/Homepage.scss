@@ -1,0 +1,21 @@
+.container {
+  min-height: 100vh;
+  padding: 10rem 12% 10rem;
+}
+.hero {
+  display: flex; /* Sử dụng flexbox */
+  align-items: center; /* Căn các phần tử con theo trục dọc */
+  width: 100%;
+}
+.textContainer {
+  flex: 1; /* Phần tử này sẽ mở rộng để chiếm hết khoảng trống còn lại */
+}
+.imageContainer {
+  flex: 1; /* Phần tử này sẽ mở rộng để chiếm hết khoảng trống còn lại */
+  display: flex; /* Sử dụng flexbox để căn chỉnh ảnh */
+  justify-content: flex-end; /* Căn ảnh về phía cuối container */
+}
+.imageContainer img {
+  max-width: 54%; /* Đảm bảo ảnh không vượt quá chiều rộng của phần tử cha */
+  height: auto; /* Đảm bảo tỷ lệ chiều cao tự động */
+}
