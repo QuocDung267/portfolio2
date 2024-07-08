@@ -1,4 +1,4 @@
-import "./About.scss"; // Assuming you are importing a CSS or SCSS file
+// import "./About.scss";
 import Techstack from "./Techstact";
 
 const About = () => {
