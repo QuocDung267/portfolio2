@@ -13,6 +13,9 @@ const Header = () => {
   const about = () => {
     navigate("/about");
   };
+  const contact = () => {
+    navigate("/contact");
+  };
   const hideSidebar = () => {
     const sidebar = document.querySelector(".sidebar");
     sidebar.style.display = "none";
@@ -54,6 +57,9 @@ const Header = () => {
         <li>
           <a href="#">Blog</a>
         </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
       </ul>
       <ul>
         <li>
@@ -72,6 +78,11 @@ const Header = () => {
         </li>
         <li className="hideOnMobile">
           <a href="#">Blog</a>
+        </li>
+        <li className="hideOnMobile">
+          <a href="#" onClick={contact}>
+            Contact
+          </a>
         </li>
         <li className="menu-button" onClick={showSidebar}>
           <a href="#">

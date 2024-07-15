@@ -4,6 +4,7 @@ import Homepage from "../Pages/Homepage/Homepage";
 import { useRoutes } from "react-router-dom";
 import Project from "../Pages/Project/Project";
 import About from "../Pages/About/About";
+import Contact from "../Pages/Contact/Contact";
 
 // Define the type for routes correctly
 const routes: { path: string; index: boolean; element: React.ReactNode }[] = [
@@ -21,6 +22,11 @@ const routes: { path: string; index: boolean; element: React.ReactNode }[] = [
     path: "/about",
     index: true,
     element: <About />,
+  },
+  {
+    path: "/contact",
+    index: true,
+    element: <Contact />,
   },
 ];
 

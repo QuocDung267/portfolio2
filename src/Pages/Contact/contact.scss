@@ -1,0 +1,29 @@
+/* contact */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  /* margin: 80px 10%; */
+  width: 100%;
+}
+.title-box {
+  position: relative;
+}
+.title-box h1 {
+  padding: 0 30px;
+  font-size: 60px;
+  font-weight: 600;
+}
+.title-box img {
+  width: 160px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
