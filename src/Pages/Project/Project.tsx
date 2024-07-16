@@ -23,6 +23,7 @@ const Project = () => {
             technologies={project.technologies}
             work_in={project.work_in}
             team_size={project.team_size}
+            link={project.link}
           />
         ))}
       </div>

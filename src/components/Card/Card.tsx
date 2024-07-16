@@ -6,7 +6,13 @@ export const Card = ({
   technologies,
   work_in,
   team_size,
+  link,
 }) => {
+  const handleClick = () => {
+    if (link) {
+      window.location.href = link;
+    }
+  };
   return (
     <div className="column">
       <div className="card">
@@ -27,7 +33,9 @@ export const Card = ({
           <p>
             <b>Team Size:</b> {team_size}
           </p>
-          <button>View</button>
+          <button onClick={handleClick} disabled={!link}>
+            view
+          </button>
         </div>
       </div>
     </div>

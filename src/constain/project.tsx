@@ -6,6 +6,7 @@ interface Projects {
   work_in: string;
   team_size: number;
   image: string;
+  link: string;
 }
 
 export const projects: Projects[] = [
@@ -17,6 +18,7 @@ export const projects: Projects[] = [
     technologies: "React, Node.js, MongoDB",
     work_in: "Web Development",
     team_size: 5,
+    link: "https://stackoverflow.com/questions/41488715/how-to-disable-button-in-react-js",
   },
   {
     id: 2,
@@ -26,6 +28,7 @@ export const projects: Projects[] = [
     technologies: "Angular, Express, MySQL",
     work_in: "Web Development",
     team_size: 8,
+    link: "",
   },
   {
     id: 3,
@@ -35,6 +38,7 @@ export const projects: Projects[] = [
     technologies: "Flutter, Firebase",
     work_in: "Mobile Development",
     team_size: 4,
+    link: "",
   },
   {
     id: 4,
@@ -44,6 +48,7 @@ export const projects: Projects[] = [
     technologies: "Python, TensorFlow, Keras",
     work_in: "Data Science",
     team_size: 6,
+    link: "",
   },
   {
     id: 5,
@@ -53,5 +58,6 @@ export const projects: Projects[] = [
     technologies: "Ethereum, Solidity",
     work_in: "Blockchain Development",
     team_size: 7,
+    link: "",
   },
 ];
